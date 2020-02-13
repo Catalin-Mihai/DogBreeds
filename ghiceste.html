@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cainopedia</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/ghiceste.css">
+	<link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+    <script type="text/javascript" src="js/navigatie.js"></script>
+    <script type="text/javascript" src="js/ghiceste.js"></script>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Caini, rase, pichinez, ciobanesc german, pitbull, animale de companie">
+	<meta name="description" content="Un site informativ despre rase de caini">
+	<meta name="author" content="Cioboata Mihai-Catalin">
+</head>
+<body>
+	<section class="fixed-horizontal">
+		<nav id="navigatie">
+			<div class="phone-view">
+				<i class="fa fa-bars" ></i>
+				<span>Menu</span>
+				<ul></ul>
+			</div>
+			<div class="menu-option">
+				<i class="fa fa-home" ></i>
+				<a href="index.html">Home</a>
+			</div>
+			<div class="menu-option">
+				<a href="rase.html">Rase</a>
+			</div>
+			<div class="menu-option">
+				<a href="galerie.html">Galerie</a>
+			</div>
+			<div class="menu-option">
+				<a href="ghiceste.html">Ghiceste</a>
+			</div>
+		</nav>
+    </section>
+    <section id="content">
+        <header>
+            <h1>Ghiceste rasa</h1>
+        </header>
+        <div id="game-start-div">
+            <p>Salut!<br>Vrei sa iei parte la un joc de recunoastere a raselor de caini?<br>
+                Jocul consta in ghicirea a 5 rase de caini<br>
+                Click pe butonul de start pentru a incepe!<br>
+                Click oriunde in fereastra de joc pentru a schimba culoarea background-ului!
+            </p>
+            <div id="start-div">
+                <input type="button" id="start-button" value="START">
+            </div>
+        </div>
+        <div id="countdown">
+            <p>Jocul incepe in: </p>
+            <p id="countdown-text">3</p>
+        </div>
+        <div id="game">
+            <div id="progress-box">
+                <div id="progress" class="progress-item">Etapa: 1/5 <br> Raspunsuri corecte: 0</div>
+                <div id="nav-box">
+                    <div class="progress-item">
+                        <input type="button" value="Submit" name="submit-button">
+                    </div>
+                </div>
+            </div>
+            <div id="quizz">
+                <div class="responsive-img">
+                    <img src="img/img1.jpg" alt="img.jpg" id="quizz-img">
+                    <p id="alert-msg"></p>
+                </div>
+                <div id="radios">
+                    <label name="solutie">
+                        <input type="radio" name="radio-button">One
+                    </label><br>
+                    <label name="solutie">
+                        <input type="radio" name="radio-button">Twoooo
+                    </label><br>
+                    <label name="solutie">
+                        <input type="radio" name="radio-button">sadasdasdasdsadasd
+                    </label><br>
+                </div>
+            </div>
+        </div>
+        <div id="endgame">
+            <table id="tabel">
+                <tr>
+                  <th>Data</th>
+                  <th>Scor</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <div id="log">
+    </div>
+
+</body>
+</html>

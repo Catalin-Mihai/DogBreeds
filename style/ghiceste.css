@@ -1,0 +1,107 @@
+#content{
+    margin-top: 5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+#endgame{
+    margin: auto;
+    margin-top: 2rem;
+    vertical-align: middle;
+    display: none;
+}
+
+.hidden{
+    display: none;
+    background-color: black;
+}
+
+.shown{
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+table, td, th {
+    border: 1px solid black;
+}
+
+#quizz{
+    margin: auto;
+    text-align: center;
+}
+
+#radios{
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+input[type="radio"]{
+    float: left;
+}
+
+label{
+    float: left;
+}
+
+#nav-box{
+    float: right;
+    margin-right: 1rem;
+}
+
+.progress-item{
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+input[name="submit-button"]{
+    font-size: 1.2em;
+}
+
+#log{
+    overflow: scroll;
+    margin-top: 10rem;
+    height: 15rem;
+    margin-left: 1rem;
+}
+
+#progress-box{
+    font-size: 1.2em;
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+#game{
+    margin: 0px;
+}
+
+#countdown{
+    margin-top: 7rem;
+    font-size: 3em;
+    text-align: center;
+    display: none;
+}
+
+#game-start-div{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#start-button{
+    margin-top: 4rem;
+    font-size: 2em;
+    padding: 1rem;
+}
+
+#game-start-div p{
+    font-size: 1.4em;
+}
+
+.responsive-img{
+    width: auto;
+    height: auto;
+    text-align: center;
+	padding: 4%;
+}
